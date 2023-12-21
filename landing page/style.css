@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #CBFF00;
+    font-size: larger;
+}
+
+.hero-section-row{
+    /* height: 100vh; */
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color:#CBFF00 ;
+    border-radius: 50%;
+
+
+}
+
+.hero-heading{
+    font-size: 75px;
+    font-weight: 600;
+
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+   .hero-heading {
+        font-size: 60px;
+    }
+}
+
+/* Large screens (desktops) */
+
+
+.hero-section-boxes{
+
+    background-color: #CBFF00;
+    min-height: 100px;
+    text-align: center;
+
+}
+
+
+.hero-section-boxes .hero-icons{
+    opacity: 0.5;
+    font-size: 50px;
+
+}
+
+
+.second-row{
+
+   
+    background-color: black;
+
+}
+@media (min-width: 400px) and (max-width: 768px) {
+    .second-section-h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .second-section-h1 {
+        font-size: 60px;
+    }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 992px) {
+    .second-section-h1 {
+        font-size: 75px;
+    }
+}
+
+/* Extra-large screens (large desktops) */
+@media (min-width: 1200px) {
+    .second-section-h1 {
+        font-size: 85px;
+    }
+}
+
+
+.second-row img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    .second-row img {
+        height: 350px;
+        width: 350px;
+    }
+
+
+    .small-size-d-block{
+        display: block;
+    }
+}
+
+
+.second-row-icons{
+    font-size: 70px;
+    color:  #CBFF00;
+
+
+}
+
+.second-row-span{
+    color:  #CBFF00;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/* till second row css is here  */
+
+
+
+/* third row css start over here  */
+
+.third-row{
+    background-color: #CBFF00;
+    height: 100vh;
+   
+
+
+}
+
+
+.third-row span{
+    opacity: 0.5;
+    
+}
+
+.third-row h1{
+    font-size: 70px;
+}
+
+
+.third-row .third-row-col button{
+
+    color: #CBFF00;
+   background-color: rgba(19, 2, 2, 0.833);
+   font-weight: 700;
+   font-size: 35px;
+   width: 400px;
+   padding: 10px;
+   border: none;
+   border-radius: 8px;
+   margin: auto;
+   margin-top: 40px;
+}
+
+.third-row .third-row-col button:hover{
+    background-color: #6C773F;
+
+}
+
+
+
+@media (min-width: 400px) and (max-width: 550px) {
+    .third-row .third-row-col button{
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .third-row .third-row-col h1{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+
+    .third-row .third-row-col h1{
+        font-size: 50px;
+    }
+   
+    }
+
+    /* third row css ends over here  */
+
+
+    /* fouth row css starts here  */
+
+
+.fourth-row{
+    background-color: black;
+    
+}
+
+.fourth-row h1{
+    font-size: 70px;
+    color: #CBFF00;
+    font-weight: 700;
+}
+
+.fourth-row-col-1 .circle , .fourth-row-col-1 button{
+    margin-left: 70px;
+}
+
+.fourth-row-col-1 button{
+    background-color: #CBFF00;
+}
+.fourth-row-col-2{
+
+    position: relative;
+
+    
+}
+
+.fourth-row-col-2 img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    
+    position: relative;
+    top : 230px;
+    right: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+   
+    .fourth-row-col-2 img{
+        height: 300px;
+        width: 300px;
+        
+
+        position: relative;
+        top : 300px;
+        right: 10px;
+
+        /* position: absolute; */
+        
+        
+    }
+
+    .fourth-row-col-1 h1{
+        font-size: 50px;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+
+    .fourth-row-col-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fourth-row-col-2 img{
+        height: 400px;
+        width: 400px;
+        padding-bottom: 30px;
+        
+
+        position: relative;
+        top : 20px;
+        left: 0%;
+
+        
+        
+        
+    }
+
+    .fourth-row-col-1 h1{
+        font-size: 50px;
+    }
+}
+
+
+.fourth-row-col-3 p{
+    color: #CBFF00;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+    text-align: center;
+
+   
+}
+
+@media (min-width: 400px) and (max-width: 991px) {
+
+    .fourth-row-col-3 p{
+       
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+   
+ 
+
+}
+
+/* fourth row css ends over here  */
+
+
+
+/* fifth row css starts over here  */
+
+.fifth-row-bg-image{
+    height: 100vh;
+    background-size: cover;
+    background-image: url('fifth-row-bg-image.jpg');
+}
+
+/* fifth row css ends over here  */
+
+
+/* sixth row css starts over here  */
+
+.sixth-row-col{
+    background-color: #CBFF00;
+    
+}
+.sixth-row-col p{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px 50px;
+    text-align: center;
+}
+
+.sixth-row-col p span{
+    color: #9FBB32 ;
+}
+
+
+.sixth-row-circle{
+    background-color: #9FBB32;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 150px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+
+
+@media (min-width: 400px) and (max-width: 768px) {
+    .sixth-row-col p{
+        font-size: 30px;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sixth-row-col p{
+        font-size: 50px;
+
+    }
+}
+
+
+/* sixth row css ends over here  */
+
+
+
+.seventh-row{
+    background-color: black;
+}
+.seventh-row-col-1 h1{
+
+    font-size: 60px;
+
+}
+
+
+

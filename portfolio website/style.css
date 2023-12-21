@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.main-container{
+    /* padding-right: 7%;
+    padding-left: 7%; */
+    background-color: #DFB6BE;
+
+}
+
+.nav-color{
+    color: #59427A;
+    text-decoration: none;
+}
+
+.nav-color:hover{
+    color: #BD6BB7;
+    
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.theme-clr{
+    color: #59427A;
+}
+ 
+.theme-btn-clr{
+    background-color:#BD6BB7;
+}
+
+.theme-text-clr{
+    color: #59427A;
+}
+
+
+
+.navbar{
+    background-color: #DFB6BE;
+    /* padding-right: 7%;
+    padding-left: 7%; */
+}
+
+.hero-row{
+    /* height: 150vh; */
+    background-color: #DFB6BE;
+
+}
+.hero-heading{
+    font-size: 90px;
+    
+    font-weight: 600;
+    padding-top: 150px;
+    z-index: 5;
+    position: relative;
+    font-family:cursive;
+}
+.hero-para{
+    position: relative;
+    z-index: 5;
+    font-size: 30px;
+    width: 70%;
+}
+
+.hero-img{
+    height: 700px;
+    width: 550px;
+    z-index: 0;
+    border-radius: 5%;
+    margin-right: 300px;
+    background-image: url(./images/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.my-skills-row, .my-portfolio-row{
+    background-color:#59427A;
+    
+    
+}
+
+.my-skills-row h1 , .portfolio-h1{
+    color: #D5C7E8;
+    font-size: 50px;
+    font-weight: 600;
+    font-family:cursive;
+}
+.my-skills-row h5{
+    color: #D5C7E8;
+}
+
+.my-skills-row p , .portfolio-p{
+    color: #D5C7E8;
+    text-align: justify;
+
+}
+
+.my-skills-row button , .portfolio-btn{
+    background-color: #BD6BB7;
+}
+
+ 
+
+.my-portfolio-h1{
+    color: #D5C7E8;
+    font-size: 50px;
+    font-weight: 600;
+    font-family:cursive;
+}
+
+.about-row{
+    background-color: #DFB6BE;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+  
+.about-row-col{
+    background-color: #59427A;
+    border-radius: 20px;
+}
+
+.portfolio-p{
+    color:#59427A;
+    font-weight: 700;
+    font-size: 14px;
+}
+.portfolio-span{
+    color:#BD6BB7;
+    font-size: 65px;
+}

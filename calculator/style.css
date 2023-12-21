@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 207, 50);
+    background: linear-gradient(to bottom right, rgba(156, 141, 0, 0.8), rgba(170, 102, 0, 0.8));
+  }
+  
+  .calculator-container {
+    background-color: #d6d6d6;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 15px;
+
+      background: linear-gradient(to bottom right, rgb(197, 222, 85), rgb(140, 255, 0));
+      /* background-color: rgb(255, 221, 0); */
+      border-radius: 10px;
+  }
+  .display {
+    width: 100%;
+    height: 50px;
+    padding-inline: 10px;
+    box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 15px,
+      rgb(255, 255, 255) -5px -5px 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+
+    box-shadow: inset 0px 0px 2px 2px gray;
+
+
+  }
+  .btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+  .btns .btn {
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgb(158, 158, 158) 2px 0px 5px 0px,
+      rgb(158, 158, 158) 0px 2px 5dvi 0px;
+  
+    box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 15px,
+      rgb(255, 255, 255) -2px -2px 15px, 2px 2px 0 0 black;
+
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(0, 198, 248);
+}
+.btns .btn.gradient-color {
+    background: linear-gradient(to bottom right, rgb(0, 116, 248),rgb(0, 198, 248), rgb(0, 198, 248));
+    color: white;
+}
+.btns .btn.gradient-color:hover {
+    background: linear-gradient(to bottom right, rgb(0, 104, 223),rgb(0, 179, 223), rgb(0, 176, 221));
+}
+  .btns .btn:hover {
+    background-color: rgb(0, 190, 237);
+
+  }
+
+  .btns .btn.clearAll-btn {
+    background-color: red;
+    color: white;
+  }
+  .btns .btn.clearAll-btn:hover {
+    background-color: rgb(221, 0, 0);
+  }
+  
+  .btns .btn.operator {
+    background-color: rgb(0, 92, 250);
+    color: white;
+  }
+  .btns .btn.operator:hover {
+    background-color: rgb(0, 81, 222);
+  }
+  
+  .btns .btn:active {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: none;
+  }
